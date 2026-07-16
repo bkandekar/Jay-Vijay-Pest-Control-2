@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Vijay Pest Control | Trusted Pest Control Service in Solapur</title>
+    
+    <!-- Meta SEO Tags -->
+    <meta name="description" content="Jay Vijay Pest Control offers 25 years of trusted, professional pest control services in Solapur — termite, cockroach, rodent and mosquito control. Open 24 hours.">
+    <meta name="keywords" content="pest control solapur, termite control solapur, bedbug treatment solapur, rodent control solapur, Jay Vijay Pest Control, pest control indira nagar, pest control vijapur road">
+    
+    <!-- FontAwesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#064E3B',       // Deep Forest Green
+                            steel: '#1A3F33',      // Dark Forest Green
+                            amber: '#F97316',      // Elegant Orange
+                            lightBg: '#FBFBFA',    // Editorial Off-White Bone
+                            emerald: '#059669',    // Bio-Safe Accent Green
+                            cardBg: '#FFFFFF'      // High-Contrast White for Cards
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                        serif: ['Lora', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FBFBFA;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* Smooth reveal transitions */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Pulsing ring animations */
+        @keyframes custom-pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.08); opacity: 0.9; }
+        }
+        
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 1; }
+            100% { transform: scale(1.4); opacity: 0; }
+        }
+
+        .btn-pulse {
+            animation: custom-pulse 2s infinite ease-in-out;
+        }
+
+        .pulse-ring-effect::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 9999px;
+            border: 4px solid #059669;
+            animation: pulse-ring 2s infinite ease-out;
+            z-index: -1;
+        }
+
+        /* Micro-interactions */
+        .hover-underline-anim {
+            position: relative;
+        }
+        .hover-underline-anim::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #F97316;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        .hover-underline-anim:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        /* Before-After slider overlay */
+        .before-after-container {
+            position: relative;
+            overflow: hidden;
+        }
+        .before-after-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(6, 78, 59, 0.9);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .before-after-container:hover .before-after-overlay {
+            opacity: 1;
+        }
+
+        /* Glow animation for pre-selection highlight */
+        @keyframes glow-form {
+            0%, 100% { box-shadow: 0 0 0px rgba(249, 115, 22, 0); }
+            50% { box-shadow: 0 0 25px rgba(249, 115, 22, 0.6); border-color: #F97316; }
+        }
+        .form-highlight-active {
+            animation: glow-form 2s ease-in-out 2;
+        }
+    </style>
+
+    <!-- Schema.org JSON-LD for LocalBusiness SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Jay Vijay Pest Control",
+      "image": "https://placehold.co/600x500/064E3B/F97316?text=Jay+Vijay+Pest+Control",
+      "@id": "",
+      "url": "https://jayvijaypestcontrol.com",
+      "telephone": "+919922464685",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "10 B, Sonamata Nagar, Near New RTO, Vijapur Road, Indira Nagar",
+        "addressLocality": "Solapur",
+        "postalCode": "413004",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 17.6599,
+        "longitude": 75.9064
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://facebook.com/jayvijaypestcontrol",
+        "https://instagram.com/jayvijaypestcontrol"
+      ]
+    }
+    </script>
+</head>
+<body class="text-slate-800 selection:bg-brand-amber selection:text-brand-navy overflow-x-hidden">
+
+    <!-- 1. HEADER SECTION -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-brand-navy/90 backdrop-blur-md border-b border-white/10 transition-all duration-300">
+        <div class="max-width-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-lg bg-brand-amber flex items-center justify-center text-brand-navy text-xl font-bold transition-transform duration-300 group-hover:scale-110">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <span class="text-white font-heading font-extrabold text-lg sm:text-xl tracking-tight block">JAY VIJAY</span>
+                        <span class="text-brand-amber text-[10px] uppercase font-bold tracking-widest block -mt-1">PEST CONTROL</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Menu -->
+                <nav class="hidden md:flex items-center gap-8">
+                    <a href="#home" class="text-white hover:text-brand-amber font-medium text-sm tracking-wide transition-colors duration-200 hover-underline-anim">Home</a>
+                    <a href="#services" class="text-white hover:text-brand-amber font-medium text-sm tracking-wide transition-colors duration-200 hover-underline-anim">Services</a>
+                    <a href="#why-choose-us" class="text-white hover:text-brand-amber font-medium text-sm tracking-wide transition-colors duration-200 hover-underline-anim">Why Us</a>
+                    <a href="#gallery" class="text-white hover:text-brand-amber font-medium text-sm tracking-wide transition-colors duration-200 hover-underline-anim">Gallery</a>
+                    <a href="#faq" class="text-white hover:text-brand-amber font-medium text-sm tracking-wide transition-colors duration-200 hover-underline-anim">FAQ</a>
+                    <a href="#contact" class="text-white hover:text-brand-amber font-medium text-sm tracking-wide transition-colors duration-200 hover-underline-anim">Contact</a>
+                </nav>
+
+                <!-- Action Button -->
+                <div class="hidden lg:flex items-center gap-4">
+                    <a href="tel:+919922464685" class="flex items-center gap-3 text-white hover:text-brand-amber transition-colors duration-200">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-sm">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs text-slate-400 block">Call 24/7 Support Hotline</span>
+                            <span class="text-sm font-bold block">+91 99224 64685</span>
+                        </div>
+                    </a>
+                    <a href="#contact" class="bg-brand-amber hover:bg-white text-brand-navy hover:text-brand-navy font-heading font-extrabold px-6 py-3 rounded-xl transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-lg text-sm tracking-wide">
+                        Free Inspection
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-btn" aria-label="Toggle Navigation Menu" class="md:hidden flex flex-col justify-between w-6 h-4 text-white focus:outline-none">
+                    <span class="w-full h-[2px] bg-white rounded transition-transform duration-300 origin-top-left"></span>
+                    <span class="w-full h-[2px] bg-white rounded transition-opacity duration-300"></span>
+                    <span class="w-full h-[2px] bg-white rounded transition-transform duration-300 origin-bottom-left"></span>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Mobile menu dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-navy border-t border-white/10 px-4 py-6 space-y-4">
+            <a href="#home" class="mobile-nav-link block text-white hover:text-brand-amber font-medium transition-colors">Home</a>
+            <a href="#services" class="mobile-nav-link block text-white hover:text-brand-amber font-medium transition-colors">Services</a>
+            <a href="#why-choose-us" class="mobile-nav-link block text-white hover:text-brand-amber font-medium transition-colors">Why Us</a>
+            <a href="#gallery" class="mobile-nav-link block text-white hover:text-brand-amber font-medium transition-colors">Gallery</a>
+            <a href="#faq" class="mobile-nav-link block text-white hover:text-brand-amber font-medium transition-colors">FAQ</a>
+            <a href="#contact" class="mobile-nav-link block text-white hover:text-brand-amber font-medium transition-colors">Contact</a>
+            
+            <hr class="border-white/10">
+            
+            <div class="flex flex-col gap-4">
+                <a href="tel:+919922464685" class="flex items-center gap-3 text-white">
+                    <i class="fa-solid fa-phone text-brand-amber"></i>
+                    <span class="font-bold">+91 99224 64685</span>
+                </a>
+                <a href="#contact" class="mobile-nav-link bg-brand-amber text-brand-navy text-center font-bold py-3 rounded-lg block">
+                    Get Free Inspection
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION (Shield Split Screen Structure) -->
+    <section id="home" class="relative pt-32 pb-20 md:pt-40 md:pb-32 bg-brand-navy overflow-hidden">
+        <!-- SVG Background Gradients -->
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_120%,#1e3e62_0%,#0b192c_50%)] opacity-70"></div>
+        
+        <!-- Animated Background Dust Grid -->
+        <div class="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#808080_1px,transparent_1px),linear-gradient(to_bottom,#808080_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Hero Left: Content -->
+                <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                    
+                    <!-- Alert Badge -->
+                    <div class="inline-flex items-center gap-2 bg-brand-amber/10 border border-brand-amber/30 text-brand-amber px-4 py-2 rounded-full text-xs font-bold tracking-wider uppercase mx-auto lg:mx-0">
+                        <span class="w-2 h-2 rounded-full bg-brand-amber animate-ping"></span>
+                        25 Years of Trusted Protection in Solapur
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white leading-none tracking-tight">
+                        Ultimate Shield Against <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-amber to-amber-500">Pest Infestations</span>
+                    </h1>
+
+                    <!-- Paragraph Description -->
+                    <p class="text-slate-300 text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                        Say goodbye to harmful intruders. Jay Vijay Pest Control deploys professional, government-approved, child and pet-safe protective shields. Built with 25 years of trusted experience (established 2001), we secure your family’s absolute peace of mind across Solapur.
+                    </p>
+
+                    <!-- Trust Checklist -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0 text-left">
+                        <div class="flex items-center gap-3 text-white text-sm font-medium">
+                            <i class="fa-solid fa-circle-check text-brand-emerald text-base"></i>
+                            100% Kid & Pet Safe
+                        </div>
+                        <div class="flex items-center gap-3 text-white text-sm font-medium">
+                            <i class="fa-solid fa-circle-check text-brand-emerald text-base"></i>
+                            25 Years of Trust
+                        </div>
+                        <div class="flex items-center gap-3 text-white text-sm font-medium">
+                            <i class="fa-solid fa-circle-check text-brand-emerald text-base"></i>
+                            Iron-Clad Warranty
+                        </div>
+                    </div>
+
+                    <!-- Action Row -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#contact" class="w-full sm:w-auto text-center bg-brand-amber hover:bg-white text-brand-navy font-heading font-black text-base px-8 py-4 rounded-2xl transition-all duration-300 shadow-lg shadow-brand-amber/20 transform hover:-translate-y-1">
+                            Get Free Inspection Today
+                        </a>
+                        <a href="https://wa.me/919922464685?text=Hi%2C%20I%20need%20pest%20control%20service%20for%20%5Blocality%5D" target="_blank" class="w-full sm:w-auto text-center border-2 border-white/20 hover:border-brand-emerald bg-white/5 hover:bg-brand-emerald text-white hover:text-brand-navy font-bold text-base px-8 py-4 rounded-2xl transition-all duration-300 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            Chat on WhatsApp Now
+                        </a>
+                    </div>
+
+                    <!-- Live Dispatch Signal Widget -->
+                    <div class="pt-4 border-t border-white/10 max-w-md mx-auto lg:mx-0">
+                        <p class="text-xs text-slate-400 flex items-center justify-center lg:justify-start gap-2">
+                            <i class="fa-solid fa-location-crosshairs text-brand-amber animate-pulse"></i>
+                            Emergency pest protection specialists service enabled for Solapur.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Hero Right: Interactive Shield Graphic (Distinctive Element Option) -->
+                <div class="lg:col-span-5 relative flex justify-center">
+                    
+                    <!-- Main Frame Outer Glow -->
+                    <div class="absolute -inset-4 bg-brand-amber/20 rounded-[2.5rem] blur-2xl filter opacity-30"></div>
+                    
+                    <!-- Graphic Frame container -->
+                    <div class="relative w-full max-w-[460px] aspect-[4/5] rounded-[2rem] border border-white/10 bg-brand-steel/30 backdrop-blur-xl p-4 shadow-2xl flex flex-col justify-between overflow-hidden">
+                        
+                        <!-- Top Floating Trust Stamp -->
+                        <div class="flex justify-between items-center bg-brand-navy/60 backdrop-blur border border-white/10 p-3 rounded-2xl">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-brand-emerald/20 flex items-center justify-center text-brand-emerald">
+                                    <i class="fa-solid fa-shield-virus"></i>
+                                </div>
+                                <div>
+                                    <span class="text-[10px] text-slate-400 block uppercase font-bold tracking-widest">Active Shield</span>
+                                    <span class="text-xs text-white font-bold block">100% Bio-Protection</span>
+                                </div>
+                            </div>
+                            <span class="bg-brand-emerald/10 text-brand-emerald text-[10px] px-2 py-1 rounded-full font-bold">VERIFIED</span>
+                        </div>
+
+                        <!-- Central Shield Illustration Overlaying Placeholder Image -->
+                        <div class="relative flex-1 my-4 flex items-center justify-center">
+                            <!-- SVG Shield Shape Backdrop -->
+                            <div class="absolute w-44 h-44 bg-brand-amber/10 rounded-full blur-xl animate-pulse"></div>
+                            
+                            <!-- Main Placeholder Image -->
+                            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=600&q=80" alt="Jay Vijay Pest Control Technician performing safe pest control treatment in a home kitchen" class="w-full h-full object-cover rounded-2xl opacity-80 border border-white/10">
+
+                            <!-- Floating Absolute SVGs/Icons represent defensive boundaries -->
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 rounded-full border-4 border-dashed border-brand-amber flex items-center justify-center animate-[spin_40s_linear_infinite]">
+                                    <i class="fa-solid fa-circle-nodes text-brand-amber text-2xl"></i>
+                                </div>
+                                <div class="absolute w-16 h-16 bg-brand-amber text-brand-navy rounded-full flex items-center justify-center text-3xl font-bold shadow-lg shadow-brand-amber/30">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Micro-Badge Widget -->
+                        <div class="absolute bottom-16 right-8 bg-brand-navy border border-brand-amber/40 p-3 rounded-2xl shadow-xl flex items-center gap-3 animate-bounce">
+                            <div class="w-8 h-8 rounded-full bg-brand-amber flex items-center justify-center text-brand-navy font-bold text-xs">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div>
+                                <span class="text-[9px] text-slate-400 uppercase tracking-wider block">Eco Protection</span>
+                                <span class="text-xs text-white font-black block">Kid & Pet Safe</span>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Info Overlay -->
+                        <div class="bg-brand-navy/80 backdrop-blur border border-white/10 p-4 rounded-2xl text-center">
+                            <span class="text-xs text-slate-400 block mb-1">Our Protection Promise</span>
+                            <span class="text-sm text-white font-extrabold block">If pests return within warranty, so do we. FREE.</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. STATS / TRUST BAR -->
+    <section class="relative z-20 -mt-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-3xl shadow-xl border border-slate-100 p-8 sm:p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <!-- Stat item 1 -->
+            <div class="flex items-center gap-5 border-b sm:border-b-0 sm:border-r border-slate-100 pb-6 sm:pb-0">
+                <div class="w-14 h-14 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-2xl shrink-0">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <div>
+                    <span class="text-3xl font-heading font-black text-brand-navy block tracking-tight">25 Yrs</span>
+                    <span class="text-xs text-slate-500 font-bold uppercase tracking-wider block">Years of Trust (Since 2001)</span>
+                </div>
+            </div>
+
+            <!-- Stat item 2 -->
+            <div class="flex items-center gap-5 border-b sm:border-b-0 lg:border-r border-slate-100 pb-6 sm:pb-0">
+                <div class="w-14 h-14 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-amber text-2xl shrink-0">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                    <span class="text-3xl font-heading font-black text-brand-navy block tracking-tight">1000+</span>
+                    <span class="text-xs text-slate-500 font-bold uppercase tracking-wider block">Customers Served</span>
+                </div>
+            </div>
+
+            <!-- Stat item 3 -->
+            <div class="flex items-center gap-5 border-b sm:border-b-0 sm:border-r border-slate-100 pb-6 sm:pb-0">
+                <div class="w-14 h-14 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-brand-emerald text-2xl shrink-0">
+                    <i class="fa-solid fa-file-shield"></i>
+                </div>
+                <div>
+                    <span class="text-3xl font-heading font-black text-brand-navy block tracking-tight">Govt.</span>
+                    <span class="text-xs text-slate-500 font-bold uppercase tracking-wider block">Licensed & Certified</span>
+                </div>
+            </div>
+
+            <!-- Stat item 4 -->
+            <div class="flex items-center gap-5">
+                <div class="w-14 h-14 rounded-2xl bg-brand-navy/5 flex items-center justify-center text-red-500 text-2xl shrink-0">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div>
+                    <span class="text-3xl font-heading font-black text-brand-navy block tracking-tight">Solapur</span>
+                    <span class="text-xs text-slate-500 font-bold uppercase tracking-wider block">24/7 Emergency Service</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DISTINCTIVE ELEMENT: ECO-SAFETY RISK RADAR CALCULATOR -->
+    <section class="py-16 md:py-24 bg-brand-lightBg reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Interactive Tool</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight">Eco-Safety Pest Risk Radar</h2>
+                <p class="text-slate-600 mt-3 text-base">Select your property and threat specifications to dynamically calculate risk level and immediately target standard eco-treatments.</p>
+            </div>
+
+            <div class="bg-white rounded-3xl border border-slate-100 shadow-2xl p-6 sm:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <!-- Calculator inputs -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Pest Type Observed</label>
+                            <select id="radar-pest-type" class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors">
+                                <option value="Cockroaches">Cockroaches (Complete elimination)</option>
+                                <option value="Termites">Termites (Wood Protection)</option>
+                                <option value="Mosquitos">Mosquitoes (Fogging & Spray)</option>
+                                <option value="Rodents">Rodents (Safe trapping)</option>
+                                <option value="Bed Bugs">Bed Bugs (Eradication treatment)</option>
+                                <option value="Ants">Ants (Colony elimination)</option>
+                                <option value="General AMC">General Pest Control (AMC)</option>
+                                <option value="Commercial">Commercial Pest Control</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Property Profile</label>
+                            <select id="radar-property-profile" class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors">
+                                <option value="Residential">Residential Home</option>
+                                <option value="Commercial">Commercial Office / Store</option>
+                                <option value="Industrial">Industrial / Warehouse</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider">Property Size Area (sq ft)</label>
+                            <span id="area-val-display" class="text-sm font-bold text-brand-steel">1,200 sq ft</span>
+                        </div>
+                        <input type="range" id="radar-property-size" min="200" max="10000" step="100" value="1200" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-brand-amber">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Severity of Infestation</label>
+                        <div class="grid grid-cols-3 gap-3">
+                            <button type="button" onclick="setSeverity('Low')" class="severity-btn border-2 border-slate-200 hover:border-brand-emerald/40 px-4 py-3 rounded-xl text-xs font-bold uppercase transition-all bg-slate-50" id="btn-sev-Low">Low</button>
+                            <button type="button" onclick="setSeverity('Moderate')" class="severity-btn border-2 border-brand-amber px-4 py-3 rounded-xl text-xs font-bold uppercase transition-all bg-brand-amber/5 text-brand-navy" id="btn-sev-Moderate">Moderate</button>
+                            <button type="button" onclick="setSeverity('Severe')" class="severity-btn border-2 border-slate-200 hover:border-red-400 px-4 py-3 rounded-xl text-xs font-bold uppercase transition-all bg-slate-50" id="btn-sev-Severe">Severe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calculator outputs gauge -->
+                <div class="lg:col-span-5 bg-brand-navy rounded-2xl p-6 text-white space-y-6 text-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-brand-steel/20 rounded-full blur-2xl"></div>
+                    
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">Pest Threat Evaluation</h3>
+
+                    <!-- Dynamic Radar Gauge Graph -->
+                    <div class="relative flex items-center justify-center py-4">
+                        <!-- Custom circular ring -->
+                        <div class="w-40 h-40 rounded-full border-8 border-white/5 flex flex-col items-center justify-center relative">
+                            <!-- Glowing color ring -->
+                            <div id="radar-glow-ring" class="absolute inset-0 rounded-full border-8 border-brand-amber animate-pulse"></div>
+                            
+                            <span id="threat-level-text" class="text-3xl font-black tracking-wider text-brand-amber">MODERATE</span>
+                            <span class="text-[10px] text-slate-400 uppercase font-bold tracking-widest mt-1">Threat Status</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3 text-left bg-white/5 p-4 rounded-xl border border-white/5">
+                        <div class="flex justify-between text-xs">
+                            <span class="text-slate-400">Treatment Plan:</span>
+                            <span id="eval-rec-frequency" class="font-bold text-white">Bi-Monthly Barrier Protection</span>
+                        </div>
+                        <div class="flex justify-between text-xs">
+                            <span class="text-slate-400">Safe-Chemical System:</span>
+                            <span class="font-bold text-brand-emerald">EcoShield Non-Toxic</span>
+                        </div>
+                        <div class="flex justify-between text-xs">
+                            <span class="text-slate-400">Estimated Shield Cost:</span>
+                            <span id="eval-est-cost" class="font-bold text-white">Flat Standard Rates Apply</span>
+                        </div>
+                    </div>
+
+                    <!-- Auto-Fill Lead form trigger -->
+                    <button type="button" onclick="autoFillFormAndScroll()" class="w-full bg-brand-amber hover:bg-white text-brand-navy font-heading font-black py-4 rounded-xl transition-all duration-300 shadow-xl shadow-brand-amber/10 transform hover:-translate-y-0.5">
+                        <i class="fa-solid fa-bolt mr-2"></i> Auto-Fill & Book Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SERVICES SECTION (3D Lift Cards Grid Style) -->
+    <section id="services" class="py-20 md:py-32 bg-white reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Our Services</span>
+                    <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight leading-none">
+                        Our Top-Tier Protective Shield Programs
+                    </h2>
+                    <p class="text-slate-600 mt-3 max-w-2xl">
+                        We list only the most highly demanded pest elimination programs. Select any specialty to pre-populate booking parameters.
+                    </p>
+                </div>
+                <!-- View All trigger -->
+                <a href="#contact" onclick="preSelectService('General Pest Control (AMC)')" class="bg-brand-navy hover:bg-brand-steel text-white px-6 py-4 rounded-xl text-sm font-bold tracking-wide transition-colors shrink-0">
+                    View All Services <i class="fa-solid fa-arrow-down-long ml-2"></i>
+                </a>
+            </div>
+
+            <!-- Grid container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Card 1: Cockroach Control -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Cockroach+Control" alt="Cockroach Control" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-red-500 text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">COMPLETE REMOVAL</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-bug-slash"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Cockroach Control</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Safe, effective gel and spray treatments for complete cockroach elimination in kitchens and cupboards.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Cockroach Control')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2: Termite Control -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Termite+Control" alt="Termite Control" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-brand-amber text-brand-navy text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">WOOD WARRANTY</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-shield-virus"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Termite Control</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Long-lasting anti-termite wood treatment and protective sub-slab barriers with solid warranty.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Termite Control')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3: Mosquito Control -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Mosquito+Control" alt="Mosquito Control" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-brand-emerald text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">FOGGING & SPRAY</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-spray-can"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Mosquito Control</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Effective fogging and chemical spray treatment designed for mosquito-free homes and gardens.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Mosquito Control')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4: Rodent Control -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Rodent+Control" alt="Rodent Control" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-slate-500 text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">SAFE TRAPPING</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-shield-cat"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Rodent Control</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Safe trapping, mechanical baiting, and structural entry prevention for homes and businesses.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Rodent Control')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 5: Bed Bug Treatment -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Bed+Bug+Treatment" alt="Bed Bug Treatment" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-brand-amber text-brand-navy text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">COMPLETE REMOVAL</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-bed"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Bed Bug Treatment</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Complete targeted elimination treatment for bed bug infestations in mattresses and furniture.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Bed Bug Treatment')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 6: General Pest Control (AMC) -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=General+Pest+Control" alt="General Pest Control AMC" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-brand-emerald text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">YEAR PROTECTION</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-calendar-check"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">General Pest Control (AMC)</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Year-round protection covering common household pests with scheduled periodic service visits.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('General Pest Control (AMC)')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 7: Ant Control -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Ant+Control" alt="Ant Control" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-slate-500 text-white text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">COLONY REMOVAL</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-circle-nodes"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Ant Control</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Specialized syringe and border treatment targeting source colonies for permanent ant removal.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Ant Control')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 8: Commercial Pest Control -->
+                <div class="group bg-white rounded-3xl border border-slate-100 shadow-lg hover:shadow-2xl hover:border-brand-amber/30 transition-all duration-300 transform hover:-translate-y-2 flex flex-col overflow-hidden">
+                    <div class="relative h-48 overflow-hidden bg-brand-navy">
+                        <img src="https://placehold.co/400x250/064E3B/FFFFFF?text=Commercial+Pest+Control" alt="Commercial Pest Control" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90">
+                        <span class="absolute top-4 right-4 bg-brand-amber text-brand-navy text-[10px] font-black px-2.5 py-1 rounded-full uppercase tracking-widest">REGULATORY SAFE</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-lg mb-4">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h3 class="font-heading font-black text-lg text-brand-navy">Commercial Pest Control</h3>
+                            <p class="text-xs text-slate-500 mt-2 leading-relaxed">
+                                Specialized, regulatory-compliant pest control programs for offices, restaurants, shops, and factories.
+                            </p>
+                        </div>
+                        <button onclick="preSelectService('Commercial Pest Control')" class="w-full mt-6 text-left text-xs font-black text-brand-steel group-hover:text-brand-amber transition-colors flex items-center justify-between border-t border-slate-100 pt-4">
+                            BOOK SERVICE
+                            <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. WHY CHOOSE US -->
+    <section id="why-choose-us" class="py-20 md:py-32 bg-brand-navy text-white relative overflow-hidden reveal">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_10%_20%,#1e3e62_0%,#0b192c_40%)] opacity-80"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                
+                <!-- Left side title & paragraph -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="bg-brand-amber/10 border border-brand-amber/30 text-brand-amber px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block">The Jay Vijay Margin</span>
+                    <h2 class="font-heading font-black text-3xl sm:text-5xl text-white tracking-tight leading-none">
+                        Uncompromising Safety. Absolute Shield.
+                    </h2>
+                    <p class="text-slate-300 text-base leading-relaxed">
+                        Unlike average contractors, we don't just spray and leave. We build complex, protective boundaries using advanced pest control methods. We are certified pest control professionals dedicated to pristine clean.
+                    </p>
+                    <div class="bg-white/5 border border-white/10 p-6 rounded-2xl flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-brand-amber flex items-center justify-center text-brand-navy text-xl font-bold shrink-0">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+                        <div>
+                            <span class="text-sm font-bold block text-white">Govt. Licensed & Certified</span>
+                            <span class="text-xs text-slate-400 block">Strict adherence to national safety and pest control regulations.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side feature points (6 Points Grid) -->
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    
+                    <!-- Feature 1 -->
+                    <div class="bg-white/5 border border-white/5 p-6 rounded-2xl space-y-3 hover:border-brand-amber/20 transition-colors">
+                        <div class="w-10 h-10 rounded-lg bg-brand-emerald/10 text-brand-emerald flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <h3 class="font-heading font-black text-lg text-white">Kid & Pet Safe Chemical Barriers</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            We use advanced bio-derived and organic solutions. Highly toxic to target pests, but absolutely harmless to children and pets.
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="bg-white/5 border border-white/5 p-6 rounded-2xl space-y-3 hover:border-brand-amber/20 transition-colors">
+                        <div class="w-10 h-10 rounded-lg bg-brand-amber/10 text-brand-amber flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-radar"></i>
+                        </div>
+                        <h3 class="font-heading font-black text-lg text-white">Advanced Thermal Sensors</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Our teams use thermal imaging technology to detect subterranean termite tunnels and nests hidden behind solid brick walls.
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="bg-white/5 border border-white/5 p-6 rounded-2xl space-y-3 hover:border-brand-amber/20 transition-colors">
+                        <div class="w-10 h-10 rounded-lg bg-red-500/10 text-red-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-truck-pickup"></i>
+                        </div>
+                        <h3 class="font-heading font-black text-lg text-white">Rapid Same-Day Response</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Pests won't wait, and neither do we. Call our central emergency hotline to guarantee dispatch in under 2 hours.
+                        </p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="bg-white/5 border border-white/5 p-6 rounded-2xl space-y-3 hover:border-brand-amber/20 transition-colors">
+                        <div class="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                        </div>
+                        <h3 class="font-heading font-black text-lg text-white">Flat-Rate Honest Pricing</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            No hidden costs or emergency surcharges. We inspect your site, provide an upfront flat estimate, and stick to it.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5.5 PROFESSIONAL EQUIPMENT SPOTLIGHT -->
+    <section id="equipment-standards" class="py-20 md:py-32 bg-brand-lightBg relative overflow-hidden reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                
+                <!-- Left Column: Professional Photo of Equipment -->
+                <div class="lg:col-span-6 relative">
+                    <!-- Glow decoration behind frame -->
+                    <div class="absolute -inset-4 bg-brand-amber/15 rounded-[2.5rem] blur-2xl filter opacity-40"></div>
+                    
+                    <div class="relative rounded-[2rem] border border-slate-200 bg-white p-4 shadow-2xl overflow-hidden">
+                        <!-- Custom Image representing Neat Pest Control Equipment & Safety Gear -->
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Professional pest control equipment, spray pump, gloves, and safety gear arranged neatly" class="w-full h-[400px] object-cover rounded-2xl border border-slate-100">
+                        
+                        <!-- Floating Trust Badge -->
+                        <div class="absolute top-8 left-8 bg-brand-navy border border-brand-amber/40 p-3.5 rounded-2xl shadow-xl flex items-center gap-3">
+                            <div class="w-9 h-9 rounded-full bg-brand-amber flex items-center justify-center text-brand-navy font-bold text-base">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <span class="text-[9px] text-slate-400 uppercase tracking-widest block">Quality Seal</span>
+                                <span class="text-xs text-white font-black block">100% Certified Tools</span>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Technician Status Overlay -->
+                        <div class="absolute bottom-8 left-8 right-8 bg-brand-navy/90 backdrop-blur border border-white/10 p-4 rounded-2xl flex items-center gap-4 shadow-lg">
+                            <div class="w-10 h-10 rounded-full bg-brand-emerald/20 flex items-center justify-center text-brand-emerald text-lg">
+                                <i class="fa-solid fa-user-shield"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs text-slate-300 block">Technician Standard</span>
+                                <span class="text-sm text-white font-extrabold block">Uniformed, Licensed, and Insured</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Standards & Details -->
+                <div class="lg:col-span-6 space-y-8">
+                    <div class="space-y-4">
+                        <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block">State-of-the-Art Armour</span>
+                        <h2 class="font-heading font-black text-3xl sm:text-5xl text-brand-navy tracking-tight leading-none">
+                            Our Advanced Equipment & Safety Standards
+                        </h2>
+                        <p class="text-slate-600 text-base leading-relaxed">
+                            We don't use outdated tools or generic retail sprays. Our certified technicians are equipped with clinical-grade, specialized instruments that guarantee precise barrier coverage while maintaining absolute safety for your home environment.
+                        </p>
+                    </div>
+
+                    <!-- Equipment Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        
+                        <!-- Item 1 -->
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-xl shrink-0">
+                                <i class="fa-solid fa-spray-can-sparkles"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-black text-base text-brand-navy">High-Pressure Spray Pumps</h3>
+                                <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                                    Compression sprayers with adjustable fine-mist brass wands for sub-slab soil barriers and deep crack penetration.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-xl shrink-0">
+                                <i class="fa-solid fa-mask-face"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-black text-base text-brand-navy">Medical-Grade Safety Gear</h3>
+                                <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                                    Carbon-HEPA respirators, safety goggles, and heavy-duty nitrile gloves worn for every dispatch to keep your home pristine.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-xl shrink-0">
+                                <i class="fa-solid fa-syringe"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-black text-base text-brand-navy">Precision Gel Applicators</h3>
+                                <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                                    Specialized target syringes loaded with proprietary odorless, child-safe bio-gels for targeted kitchen cabinet treatment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-brand-navy/5 flex items-center justify-center text-brand-navy text-xl shrink-0">
+                                <i class="fa-solid fa-temperature-arrow-up"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-black text-base text-brand-navy">Thermal & Moisture Sensors</h3>
+                                <p class="text-xs text-slate-500 mt-1 leading-relaxed">
+                                    Sensors to scan walls for subterranean moisture pockets and invisible pest nesting lines without any drilling.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PROCESS / HOW IT WORKS -->
+    <section class="py-20 md:py-32 bg-white reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Our Workflow</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight">
+                    The 4-Step Strategic Shield Process
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    No guesswork, just highly clinical execution. Here is how we build your absolute perimeter defense.
+                </p>
+            </div>
+
+            <!-- Steps Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                <!-- Decorative Connector Line -->
+                <div class="hidden md:block absolute top-[68px] left-[15%] right-[15%] h-[2px] bg-slate-100 z-0"></div>
+
+                <!-- Step 1 -->
+                <div class="relative z-10 text-center space-y-4 group">
+                    <div class="w-16 h-16 rounded-full bg-slate-50 border-2 border-slate-100 group-hover:border-brand-amber group-hover:bg-brand-navy group-hover:text-white transition-all duration-300 flex items-center justify-center text-brand-navy text-xl font-black mx-auto shadow-md">
+                        1
+                    </div>
+                    <h3 class="font-heading font-black text-lg text-brand-navy">Visual & Thermal Inspection</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed max-w-xs mx-auto">
+                        Our technicians systematically map entry points, structural vulnerabilities, moisture pockets, and nest lines.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative z-10 text-center space-y-4 group">
+                    <div class="w-16 h-16 rounded-full bg-slate-50 border-2 border-slate-100 group-hover:border-brand-amber group-hover:bg-brand-navy group-hover:text-white transition-all duration-300 flex items-center justify-center text-brand-navy text-xl font-black mx-auto shadow-md">
+                        2
+                    </div>
+                    <h3 class="font-heading font-black text-lg text-brand-navy">Targeted Shield Treatment</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed max-w-xs mx-auto">
+                        Precise micro-spraying and bait placement targeting source nests without disturbing your normal lifestyle or structure.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative z-10 text-center space-y-4 group">
+                    <div class="w-16 h-16 rounded-full bg-slate-50 border-2 border-slate-100 group-hover:border-brand-amber group-hover:bg-brand-navy group-hover:text-white transition-all duration-300 flex items-center justify-center text-brand-navy text-xl font-black mx-auto shadow-md">
+                        3
+                    </div>
+                    <h3 class="font-heading font-black text-lg text-brand-navy">Rigorous Sealing & Follow-up</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed max-w-xs mx-auto">
+                        Sealing up access holes and crevices with steel mesh/poly-sealant barriers. Checking nesting results after 14 days.
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative z-10 text-center space-y-4 group">
+                    <div class="w-16 h-16 rounded-full bg-slate-50 border-2 border-slate-100 group-hover:border-brand-amber group-hover:bg-brand-navy group-hover:text-white transition-all duration-300 flex items-center justify-center text-brand-navy text-xl font-black mx-auto shadow-md">
+                        4
+                    </div>
+                    <h3 class="font-heading font-black text-lg text-brand-navy">Active Warranty Shield</h3>
+                    <p class="text-xs text-slate-500 leading-relaxed max-w-xs mx-auto">
+                        Continuous protection under our 180-day iron-clad warranty guarantee. Free re-treatments whenever needed.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 7. GALLERY / BEFORE-AFTER -->
+    <section id="gallery" class="py-20 md:py-32 bg-brand-lightBg reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Before & After Gallery</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight">
+                    Proof in Action: Case Studies
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    Hover or tap over any tile to see our deep bio-sanitation and heavy structure barrier seal results in Phase 1.
+                </p>
+            </div>
+
+            <!-- Gallery grid layout -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Gallery 1 -->
+                <div class="before-after-container rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-brand-navy">
+                    <img src="https://placehold.co/500x350/CCCCCC/1E293B?text=Before:+Termite+Infested+Drywall" alt="Before: Termite Infested Drywall" class="w-full h-full object-cover">
+                    <div class="before-after-overlay text-center p-6">
+                        <div class="space-y-2">
+                            <span class="bg-brand-amber text-brand-navy text-[10px] font-black px-2 py-1 rounded-full uppercase">AFTER TREATMENT</span>
+                            <img src="https://placehold.co/500x350/0B192C/F59E0B?text=After:+Termite-Free+Chemical+Barrier" alt="After: Termite Free Barrier" class="w-24 h-16 mx-auto object-cover rounded border border-white/20 mt-2">
+                            <p class="text-xs text-white pt-2">Full subterranean perimeter shield lock down.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery 2 -->
+                <div class="before-after-container rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-brand-navy">
+                    <img src="https://placehold.co/500x350/CCCCCC/1E293B?text=Before:+Cockroach+Infested+Pantry" alt="Before: Cockroach Infested Pantry" class="w-full h-full object-cover">
+                    <div class="before-after-overlay text-center p-6">
+                        <div class="space-y-2">
+                            <span class="bg-brand-emerald text-white text-[10px] font-black px-2 py-1 rounded-full uppercase">AFTER TREATMENT</span>
+                            <img src="https://placehold.co/500x350/0B192C/FFFFFF?text=After:+Slick+Sanitized+Organic+Shield" alt="After: Sanitized Pantry" class="w-24 h-16 mx-auto object-cover rounded border border-white/20 mt-2">
+                            <p class="text-xs text-white pt-2">Complete organic flushing and micro-gel barrier sealing.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery 3 -->
+                <div class="before-after-container rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-brand-navy">
+                    <img src="https://placehold.co/500x350/CCCCCC/1E293B?text=Before:+Rodent+Entry+Hole+Gnawed" alt="Before: Rodent Entry Hole" class="w-full h-full object-cover">
+                    <div class="before-after-overlay text-center p-6">
+                        <div class="space-y-2">
+                            <span class="bg-brand-amber text-brand-navy text-[10px] font-black px-2 py-1 rounded-full uppercase">AFTER TREATMENT</span>
+                            <img src="https://placehold.co/500x350/0B192C/F59E0B?text=After:+Sealed+Steel-Mesh+Exclusion" alt="After: Sealed Rodent Barrier" class="w-24 h-16 mx-auto object-cover rounded border border-white/20 mt-2">
+                            <p class="text-xs text-white pt-2">Reinforced steel-mesh barriers and expanding foam exclusion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery 4 -->
+                <div class="before-after-container rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-brand-navy">
+                    <img src="https://placehold.co/500x350/CCCCCC/1E293B?text=Before:+Pigeon+Nesting+Balcony" alt="Before: Pigeon Nesting Balcony" class="w-full h-full object-cover">
+                    <div class="before-after-overlay text-center p-6">
+                        <div class="space-y-2">
+                            <span class="bg-brand-emerald text-white text-[10px] font-black px-2 py-1 rounded-full uppercase">AFTER TREATMENT</span>
+                            <img src="https://placehold.co/500x350/0B192C/FFFFFF?text=After:+Clean+Pigeon-Netting+Install" alt="After: Clean Pigeon Netting" class="w-24 h-16 mx-auto object-cover rounded border border-white/20 mt-2">
+                            <p class="text-xs text-white pt-2">Precision alignment of UV-resistant bird protection screens.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 8. TESTIMONIALS CAROUSEL -->
+    <section class="py-20 md:py-32 bg-white overflow-hidden reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Customer Reviews</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight">
+                    Backed by Hundreds of Verified Ratings
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    What our verified residential and commercial partners say about our Shield Programs.
+                </p>
+            </div>
+
+            <!-- Testimonial slider view wrapper -->
+            <div class="relative max-w-4xl mx-auto">
+                <div id="testimonial-slider" class="flex transition-transform duration-500 ease-in-out">
+                    
+                    <!-- Slide 1 -->
+                    <div class="w-full shrink-0 px-4">
+                        <div class="bg-brand-navy text-white rounded-3xl p-8 sm:p-12 relative border border-white/5 shadow-2xl">
+                            <span class="absolute top-8 right-8 text-6xl text-white/5 font-serif font-black">“</span>
+                            <div class="flex items-center gap-1 text-brand-amber mb-6">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-lg sm:text-xl font-medium leading-relaxed mb-8">
+                                "Jay Vijay Pest Control completely resolved our severe cockroach and termite issue. Their team was extremely meticulous, identified the exact colony source, applied odorless gel, and gave us a warranty. Outstanding and totally safe for our children."
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <img src="https://placehold.co/100x100/F59E0B/0B192C?text=AM" alt="Anand Mehta" class="w-12 h-12 rounded-full object-cover border border-brand-amber">
+                                <div>
+                                    <span class="font-heading font-bold text-base block text-white">Anand Mehta</span>
+                                    <span class="text-xs text-slate-400 block">Residential Homeowner, Vijapur Road, Solapur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="w-full shrink-0 px-4">
+                        <div class="bg-brand-navy text-white rounded-3xl p-8 sm:p-12 relative border border-white/5 shadow-2xl">
+                            <span class="absolute top-8 right-8 text-6xl text-white/5 font-serif font-black">“</span>
+                            <div class="flex items-center gap-1 text-brand-amber mb-6">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-lg sm:text-xl font-medium leading-relaxed mb-8">
+                                "As a restaurant owner, keeping our kitchen 100% pest-free is critical. Jay Vijay Pest Control sets up our monthly commercial barriers and provides certified reports. Since contracting them, we've had zero pest sightings. Very reliable and professional service."
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <img src="https://placehold.co/100x100/0B192C/FFFFFF?text=SP" alt="Siddharth Patil" class="w-12 h-12 rounded-full object-cover border border-brand-amber">
+                                <div>
+                                    <span class="font-heading font-bold text-base block text-white">Siddharth Patil</span>
+                                    <span class="text-xs text-slate-400 block">Operations Manager, Solapur Food Plaza</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="w-full shrink-0 px-4">
+                        <div class="bg-brand-navy text-white rounded-3xl p-8 sm:p-12 relative border border-white/5 shadow-2xl">
+                            <span class="absolute top-8 right-8 text-6xl text-white/5 font-serif font-black">“</span>
+                            <div class="flex items-center gap-1 text-brand-amber mb-6">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-lg sm:text-xl font-medium leading-relaxed mb-8">
+                                "The termite threat in our home was severe. Jay Vijay drilled precision sub-slab barrier points and treated the soil. Extremely professional, clean execution, and backed by a certified multi-year warranty. We are finally termite-free!"
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <img src="https://placehold.co/100x100/10B981/FFFFFF?text=RK" alt="Ritu Kapoor" class="w-12 h-12 rounded-full object-cover border border-brand-amber">
+                                <div>
+                                    <span class="font-heading font-bold text-base block text-white">Ritu Kapoor</span>
+                                    <span class="text-xs text-slate-400 block">Villa Owner, Indira Nagar, Solapur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Slider Controls -->
+                <div class="flex items-center justify-center gap-6 mt-10">
+                    <button onclick="prevSlide()" aria-label="Previous Testimonial" class="w-12 h-12 rounded-full bg-slate-100 hover:bg-brand-navy text-brand-navy hover:text-white transition-all flex items-center justify-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <!-- Indicators -->
+                    <div class="flex items-center gap-2">
+                        <span class="dot-indicator w-3 h-3 rounded-full bg-brand-navy transition-colors cursor-pointer" onclick="goToSlide(0)"></span>
+                        <span class="dot-indicator w-3 h-3 rounded-full bg-slate-200 transition-colors cursor-pointer" onclick="goToSlide(1)"></span>
+                        <span class="dot-indicator w-3 h-3 rounded-full bg-slate-200 transition-colors cursor-pointer" onclick="goToSlide(2)"></span>
+                    </div>
+                    <button onclick="nextSlide()" aria-label="Next Testimonial" class="w-12 h-12 rounded-full bg-slate-100 hover:bg-brand-navy text-brand-navy hover:text-white transition-all flex items-center justify-center">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 9. PRICING PLANS / PACKAGES -->
+    <section class="py-20 md:py-32 bg-brand-lightBg reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Protection Packages</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight">
+                    Transparent Flat-Rate Shield Plans
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    No tricks, just complete defense. Choose a standard program or contact us for tailored commercial audits.
+                </p>
+            </div>
+
+            <!-- Pricing Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+                
+                <!-- Plan 1 -->
+                <div class="bg-white rounded-3xl border border-slate-100 p-8 flex flex-col justify-between shadow-lg transition-transform hover:-translate-y-2 hover:shadow-xl">
+                    <div>
+                        <span class="text-slate-400 text-xs font-bold uppercase tracking-wider block">Standard Barrier</span>
+                        <h3 class="font-heading font-black text-2xl text-brand-navy mt-1">Basic Shield</h3>
+                        <p class="text-xs text-slate-500 mt-2">Best for standard quarterly residential pest protection (ants, roaches, common bugs).</p>
+                        
+                        <div class="my-6 border-y border-slate-100 py-6">
+                            <span class="text-3xl font-heading font-black text-brand-navy">Flat Standard Rates</span>
+                            <span class="text-xs text-slate-400 block mt-1">Inspection included at zero cost.</span>
+                        </div>
+
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                General Pest Exclusion Spray
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                Kitchen Gel Injection
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                Same-Day Emergency Dispatch
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-400">
+                                <i class="fa-solid fa-circle-xmark text-slate-300"></i>
+                                Termite sub-slab barrier
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-400">
+                                <i class="fa-solid fa-circle-xmark text-slate-300"></i>
+                                Certified Field Biologist Audit
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <button onclick="preSelectService('General Pest Control (AMC)')" class="w-full bg-brand-navy hover:bg-brand-steel text-white text-center font-bold py-4 rounded-xl text-sm transition-all mt-8">
+                        Select Basic Plan
+                    </button>
+                </div>
+
+                <!-- Plan 2: Most Popular -->
+                <div class="bg-brand-navy text-white rounded-3xl border-2 border-brand-amber p-8 flex flex-col justify-between shadow-2xl relative transition-transform hover:-translate-y-2">
+                    <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-amber text-brand-navy text-xxs font-black px-4 py-1.5 rounded-full uppercase tracking-widest shadow font-heading">MOST POPULAR SHIELD</span>
+                    <div>
+                        <span class="text-brand-amber text-xs font-bold uppercase tracking-wider block">Intensive Elimination</span>
+                        <h3 class="font-heading font-black text-2xl text-white mt-1">Premium Shield</h3>
+                        <p class="text-xs text-slate-300 mt-2">Perfect protection for homes facing termite risk or severe bedbug infestation.</p>
+                        
+                        <div class="my-6 border-y border-white/10 py-6">
+                            <span class="text-3xl font-heading font-black text-brand-amber">Termite & Vector Cap</span>
+                            <span class="text-xs text-slate-400 block mt-1">100% money-back warranty guarantee.</span>
+                        </div>
+
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-200">
+                                <i class="fa-solid fa-circle-check text-brand-amber"></i>
+                                Sub-slab Termite Chemical Barrier
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-200">
+                                <i class="fa-solid fa-circle-check text-brand-amber"></i>
+                                Thermal imaging moisture scanning
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-200">
+                                <i class="fa-solid fa-circle-check text-brand-amber"></i>
+                                Bed bug high-temp treatment
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-200">
+                                <i class="fa-solid fa-circle-check text-brand-amber"></i>
+                                6-Month Shield Warranty (Free retreatment)
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-400">
+                                <i class="fa-solid fa-circle-xmark text-slate-600"></i>
+                                Dedicated Biologist Hazard Report
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <button onclick="preSelectService('Termite Control')" class="w-full bg-brand-amber hover:bg-white text-brand-navy text-center font-black py-4 rounded-xl text-sm transition-all mt-8 shadow-lg shadow-brand-amber/10">
+                        Select Premium Plan
+                    </button>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="bg-white rounded-3xl border border-slate-100 p-8 flex flex-col justify-between shadow-lg transition-transform hover:-translate-y-2 hover:shadow-xl">
+                    <div>
+                        <span class="text-slate-400 text-xs font-bold uppercase tracking-wider block">Audited Commercial</span>
+                        <h3 class="font-heading font-black text-2xl text-brand-navy mt-1">Industrial Guard</h3>
+                        <p class="text-xs text-slate-500 mt-2">Custom layouts meeting full regulatory FDA, USDA, or hotel compliance codes.</p>
+                        
+                        <div class="my-6 border-y border-slate-100 py-6">
+                            <span class="text-3xl font-heading font-black text-brand-navy">Custom Estimate</span>
+                            <span class="text-xs text-slate-400 block mt-1">Includes biological hazard analysis report.</span>
+                        </div>
+
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                Full Biological Facility Audit
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                Automated Vector Misting Barricades
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                Heavy Warehouse Rodent Exclusion
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                Certified PDF hazard compliance charts
+                            </li>
+                            <li class="flex items-center gap-3 text-xs font-medium text-slate-700">
+                                <i class="fa-solid fa-circle-check text-brand-emerald"></i>
+                                24/7 dedicated biologist support
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <button onclick="preSelectService('Commercial Pest Control')" class="w-full bg-brand-navy hover:bg-brand-steel text-white text-center font-bold py-4 rounded-xl text-sm transition-all mt-8">
+                        Get Custom Estimate
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 10. FAQ SECTION (Accordion) -->
+    <section id="faq" class="py-20 md:py-32 bg-white reveal">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">FAQ</span>
+                <h2 class="font-heading font-black text-3xl sm:text-4xl text-brand-navy tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    Find immediate transparent answers on chemical safety, warranty duration, and dispatch timelines.
+                </p>
+            </div>
+
+            <!-- Accordion container -->
+            <div class="space-y-4">
+                
+                <!-- Accordion 1 -->
+                <div class="border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 bg-slate-50 hover:bg-slate-100/50 text-left transition-colors" onclick="toggleFaq(0)">
+                        <span class="font-heading font-bold text-base sm:text-lg text-brand-navy">Are your pest control chemicals safe for children and pets?</span>
+                        <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 border-t border-slate-100 bg-white">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Absolutely. Jay Vijay Pest Control works strictly with bio-derived, organic, or EPA/CIBRC approved chemical formulas. Our localized gels and protective sub-slab barriers are highly lethal to pests but designed to pose zero toxicity risk to humans, babies, cats, and dogs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Accordion 2 -->
+                <div class="border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 bg-slate-50 hover:bg-slate-100/50 text-left transition-colors" onclick="toggleFaq(1)">
+                        <span class="font-heading font-bold text-base sm:text-lg text-brand-navy">How long is your standard service warranty period?</span>
+                        <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 border-t border-slate-100 bg-white">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Our standard Premium Shield programs are backed by an iron-clad **180-day (6 months) service warranty**. If any target pests reappear inside your treated perimeter during this duration, our emergency squads will deploy and re-treat the area at absolutely zero cost to you.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Accordion 3 -->
+                <div class="border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 bg-slate-50 hover:bg-slate-100/50 text-left transition-colors" onclick="toggleFaq(2)">
+                        <span class="font-heading font-bold text-base sm:text-lg text-brand-navy">Do I need to leave my house during treatment?</span>
+                        <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 border-t border-slate-100 bg-white">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            No, for 90% of our standard treatments (including roach micro-gels and rodent exclusion barriers), you do not need to leave. Only heavy vector thermal fogging or severe bedbug heat eradication cycles require the space to be vacant for 2–4 hours. Our technicians will coordinate everything beforehand.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Accordion 4 -->
+                <div class="border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 bg-slate-50 hover:bg-slate-100/50 text-left transition-colors" onclick="toggleFaq(3)">
+                        <span class="font-heading font-bold text-base sm:text-lg text-brand-navy">What is your response time for emergency dispatches?</span>
+                        <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 border-t border-slate-100 bg-white">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            We pride ourselves on active local squads. For urgent scenarios (snake nesting, severe hornet/wasp activity, active food kitchen lockdowns), our dispatch window is under **2 hours** inside our core metropolitan service sectors.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Accordion 5 -->
+                <div class="border border-slate-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <button class="faq-btn w-full flex items-center justify-between p-6 bg-slate-50 hover:bg-slate-100/50 text-left transition-colors" onclick="toggleFaq(4)">
+                        <span class="font-heading font-bold text-base sm:text-lg text-brand-navy">Do you offer commercial contract audits for food services?</span>
+                        <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+                    </button>
+                    <div class="faq-content hidden p-6 border-t border-slate-100 bg-white">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Yes, we maintain an expert biological audit wing. We service clouds kitchens, high-end hotels, processing factories, and storage warehouses. We provide physical logs, hazard mapping, trap statistics, and certified regulatory clearance documentation directly.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 11. CONTACT + LEAD FORM SECTION -->
+    <section id="contact" class="py-20 md:py-32 bg-brand-lightBg reveal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+                
+                <!-- Form column -->
+                <div class="lg:col-span-7 bg-white rounded-3xl border border-slate-100 p-6 sm:p-10 shadow-2xl space-y-6" id="lead-form-card">
+                    <div>
+                        <span class="bg-brand-navy/5 text-brand-steel px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider inline-block mb-3">Booking System</span>
+                        <h2 class="font-heading font-black text-2xl sm:text-3xl text-brand-navy tracking-tight">Request Your Shield Barrier</h2>
+                        <p class="text-xs text-slate-500 mt-2">Enter your coordinate details. Our booking algorithm translates this into a pre-formatted WhatsApp command instantly.</p>
+                    </div>
+
+                    <!-- Lead capture form -->
+                    <form id="leadForm" onsubmit="handleFormSubmission(event)" class="space-y-6">
+                        
+                        <!-- Row 1: Name and Phone -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="form-name" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Full Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="form-name" required placeholder="Enter your full name" class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors">
+                            </div>
+                            <div>
+                                <label for="form-phone" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Phone Number <span class="text-red-500">*</span></label>
+                                <input type="tel" id="form-phone" required placeholder="Enter phone (e.g. 9876543210)" class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors">
+                            </div>
+                        </div>
+
+                        <!-- Row 2: Address/Area and Service select -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="form-address" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Address / Area locality <span class="text-red-500">*</span></label>
+                                <input type="text" id="form-address" required placeholder="Flat, building, locality" class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors">
+                            </div>
+                            <div>
+                                <label for="form-service" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Service Needed <span class="text-red-500">*</span></label>
+                                <select id="form-service" required class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors">
+                                    <option value="" disabled selected>Choose Specialty Service</option>
+                                    <optgroup label="Standard Residential Treatments">
+                                        <option value="Cockroach Control">Cockroach Control</option>
+                                        <option value="Ant Control">Ant Control</option>
+                                        <option value="Housefly Control">Housefly Control</option>
+                                        <option value="Wasp Control">Wasp Control</option>
+                                    </optgroup>
+                                    <optgroup label="Specialized Structural Barriers">
+                                        <option value="Termite Control">Termite Control</option>
+                                        <option value="Wood Borer Treatment">Wood Borer Treatment</option>
+                                        <option value="Rodent Control">Rodent Control</option>
+                                        <option value="Bed Bug Treatment">Bed Bug Treatment</option>
+                                        <option value="Mosquito Control">Mosquito Control</option>
+                                    </optgroup>
+                                    <optgroup label="Comprehensive Protection">
+                                        <option value="General Pest Control (AMC)">General Pest Control (AMC)</option>
+                                        <option value="Commercial Pest Control">Commercial Pest Control</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Row 3: Optional message -->
+                        <div>
+                            <label for="form-message" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Additional Message / Observation (Optional)</label>
+                            <textarea id="form-message" rows="3" placeholder="Explain your pest threat or convenient timing" class="w-full bg-slate-50 border border-slate-200 focus:border-brand-amber rounded-xl px-4 py-3 text-sm focus:outline-none transition-colors"></textarea>
+                        </div>
+
+                        <!-- Action button -->
+                        <button type="submit" class="w-full bg-brand-amber hover:bg-brand-navy hover:text-white text-brand-navy font-heading font-black text-base py-4 rounded-xl transition-all duration-300 shadow-xl shadow-brand-amber/10 transform hover:-translate-y-0.5">
+                            I Want This Service <i class="fa-brands fa-whatsapp ml-2 text-lg"></i>
+                        </button>
+                    </form>
+
+                    <!-- Embedded Form Endpoint comment as required -->
+                    <!-- To configure a server-side form aggregator later, replace the onsubmit action with your service URL: e.g. Formspree (https://formspree.io/f/your_id) or Web3Forms. -->
+                </div>
+
+                <!-- Info Column & Map -->
+                <div class="lg:col-span-5 flex flex-col justify-between space-y-8">
+                    
+                    <!-- Reference stats & card -->
+                    <div class="bg-brand-navy text-white rounded-3xl p-8 space-y-6 shadow-xl border border-white/5 relative overflow-hidden">
+                        <div class="absolute -top-12 -right-12 w-40 h-40 bg-brand-steel/30 rounded-full blur-2xl"></div>
+                        
+                        <h3 class="font-heading font-black text-xl text-white">Central Support Command</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="flex gap-4 items-start">
+                                <div class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-brand-amber shrink-0">
+                                    <i class="fa-solid fa-map-location-dot"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">Registered Office</span>
+                                    <span class="text-sm font-medium block text-slate-200">10 B, Sonamata Nagar, Near New RTO, Vijapur Road, Indira Nagar, Solapur 413004, Maharashtra</span>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 items-start">
+                                <div class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-brand-emerald shrink-0">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">Dispatch Hotline (24/7)</span>
+                                    <span class="text-sm font-bold block text-white">+91 99224 64685</span>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 items-start">
+                                <div class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-brand-amber shrink-0">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-400 block">General Operations Mail</span>
+                                    <span class="text-sm font-medium block text-slate-200">info@jayvijaypestcontrol.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map placeholder -->
+                    <div class="rounded-3xl overflow-hidden border border-slate-100 shadow-lg relative flex-1 min-h-[250px] bg-slate-200">
+                        <!-- Custom styled map graphic -->
+                        <img src="https://placehold.co/600x400/0B192C/F59E0B?text=Solapur+Service+Map" alt="Solapur Service Sectors Area" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-transparent flex items-end p-6">
+                            <div>
+                                <span class="bg-brand-emerald text-white text-[9px] font-bold px-2 py-1 rounded-full uppercase tracking-wider inline-block mb-1">SERVICE ZONE MAP</span>
+                                <span class="text-sm text-white font-extrabold block">Coverage: Solapur, Indira Nagar, Vijapur Road and surrounding areas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 12. FOOTER SECTION -->
+    <footer class="bg-brand-navy text-white pt-16 pb-8 border-t border-white/5 relative z-10 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                
+                <!-- Footer col 1: About logo -->
+                <div class="space-y-4">
+                    <a href="#home" class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-brand-amber flex items-center justify-center text-brand-navy text-base font-bold">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <span class="text-white font-heading font-extrabold text-lg tracking-tight">JAY VIJAY</span>
+                    </a>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        ISO 9001:2015 certified field experts specializing in clinical-grade, eco-friendly pest exclusion barriers. Securing residential peace of mind.
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <a href="https://facebook.com/jayvijaypestcontrol" target="_blank" aria-label="Facebook Profile" class="w-9 h-9 rounded-full bg-white/5 hover:bg-brand-amber hover:text-brand-navy flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-facebook-f text-sm"></i>
+                        </a>
+                        <a href="https://instagram.com/jayvijaypestcontrol" target="_blank" aria-label="Instagram Profile" class="w-9 h-9 rounded-full bg-white/5 hover:bg-brand-amber hover:text-brand-navy flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-instagram text-sm"></i>
+                        </a>
+                        <a href="https://x.com/jayvijaypestcontrol" target="_blank" aria-label="X Profile" class="w-9 h-9 rounded-full bg-white/5 hover:bg-brand-amber hover:text-brand-navy flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-x-twitter text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Footer col 2: Quick links -->
+                <div class="space-y-4">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-white">Shield Navigation</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-xs text-slate-400 hover:text-brand-amber transition-colors">Perimeter Home</a></li>
+                        <li><a href="#services" class="text-xs text-slate-400 hover:text-brand-amber transition-colors">Specialty Programs</a></li>
+                        <li><a href="#why-choose-us" class="text-xs text-slate-400 hover:text-brand-amber transition-colors">Why Choose Shield</a></li>
+                        <li><a href="#gallery" class="text-xs text-slate-400 hover:text-brand-amber transition-colors">Visual Case Studies</a></li>
+                        <li><a href="#faq" class="text-xs text-slate-400 hover:text-brand-amber transition-colors">Frequently Answered</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer col 3: Service sectors list -->
+                <div class="space-y-4">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-white">Coverage Sectors</h4>
+                    <ul class="space-y-2">
+                        <li class="text-xs text-slate-400 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-nodes text-brand-amber text-[8px]"></i>
+                            Indira Nagar & Vijapur Road
+                        </li>
+                        <li class="text-xs text-slate-400 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-nodes text-brand-amber text-[8px]"></i>
+                            Sonamata Nagar & New RTO Area
+                        </li>
+                        <li class="text-xs text-slate-400 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-nodes text-brand-amber text-[8px]"></i>
+                            Jule Solapur & Samrat Chowk
+                        </li>
+                        <li class="text-xs text-slate-400 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-nodes text-brand-amber text-[8px]"></i>
+                            Solapur City & Surrounding Areas
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Footer col 4: Brand certification info -->
+                <div class="space-y-4">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-white">Secure Verification</h4>
+                    <div class="bg-white/5 border border-white/5 p-4 rounded-xl space-y-2">
+                        <span class="text-xxs text-slate-400 block uppercase font-bold tracking-wider">MEMBER OF</span>
+                        <span class="text-xs font-bold text-white block">Indian Pest Control Association (IPCA)</span>
+                        <p class="text-[10px] text-slate-400">Strictly compliance validated. Safe chemical execution protocols in active usage.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Footer divider -->
+            <hr class="border-white/5 my-8">
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-center">
+                <p class="text-xxs text-slate-500">
+                    &copy; 2026 Jay Vijay Pest Control Services. All rights reserved. Registered under standard commercial bio-safety guidelines.
+                </p>
+                <p class="text-xxs text-slate-500 font-bold tracking-wide">
+                    Website by <span class="text-brand-amber">ebookcharm Web Services</span>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- FIXED FLOATING WHATSAPP BUTTON (Pulse effect) -->
+    <a href="https://wa.me/919922464685?text=Hi%2C%20I%20need%20pest%20control%20service" target="_blank" aria-label="WhatsApp Dispatch Support" class="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full bg-brand-emerald text-white flex items-center justify-center text-3xl shadow-2xl transition-transform duration-300 transform hover:scale-110 btn-pulse pulse-ring-effect">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+
+    <!-- CORE BUSINESS LOGIC & COMPONENT SCRIPT -->
+    <script>
+        // --- 1. Sticky Navigation & Scroll Fade/Slide Revels ---
+        const header = document.getElementById('main-header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-lg', 'bg-brand-navy');
+                header.classList.remove('bg-brand-navy/90');
+            } else {
+                header.classList.remove('shadow-lg', 'bg-brand-navy');
+                header.classList.add('bg-brand-navy/90');
+            }
+        });
+
+        // Mobile menu trigger
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const spans = mobileMenuBtn.querySelectorAll('span');
+            spans[0].classList.toggle('rotate-45');
+            spans[0].classList.toggle('translate-x-[2px]');
+            spans[0].classList.toggle('translate-y-[2px]');
+            spans[1].classList.toggle('opacity-0');
+            spans[2].classList.toggle('-rotate-45');
+            spans[2].classList.toggle('translate-x-[2px]');
+            spans[2].classList.toggle('-translate-y-[2px]');
+        });
+
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Intersection observer for viewport reveal animations
+        const revealElements = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        revealElements.forEach(el => observer.observe(el));
+
+
+        // --- 2. Interactive Eco-Safety Risk Radar & Calculator Logic ---
+        let selectedSeverity = 'Moderate';
+
+        function setSeverity(val) {
+            selectedSeverity = val;
+            document.querySelectorAll('.severity-btn').forEach(btn => {
+                btn.classList.remove('border-brand-amber', 'bg-brand-amber/5', 'text-brand-navy');
+                btn.classList.add('border-slate-200', 'bg-slate-50');
+            });
+            const activeBtn = document.getElementById(`btn-sev-${val}`);
+            activeBtn.classList.remove('border-slate-200', 'bg-slate-50');
+            activeBtn.classList.add('border-brand-amber', 'bg-brand-amber/5', 'text-brand-navy');
+            updateRadarEvaluation();
+        }
+
+        const pestInput = document.getElementById('radar-pest-type');
+        const propertyInput = document.getElementById('radar-property-profile');
+        const areaSlider = document.getElementById('radar-property-size');
+        const areaDisplay = document.getElementById('area-val-display');
+
+        areaSlider.addEventListener('input', (e) => {
+            areaDisplay.textContent = Number(e.target.value).toLocaleString() + ' sq ft';
+            updateRadarEvaluation();
+        });
+
+        pestInput.addEventListener('change', updateRadarEvaluation);
+        propertyInput.addEventListener('change', updateRadarEvaluation);
+
+        function updateRadarEvaluation() {
+            const pest = pestInput.value;
+            const size = Number(areaSlider.value);
+            
+            let risk = 'MODERATE';
+            let color = '#F59E0B'; // Amber
+            let frequency = 'Bi-Monthly Barrier Protection';
+            let baseRate = 'Flat Standard Rates Apply';
+
+            // Calculate basic mock logic based on inputs
+            if (selectedSeverity === 'Severe' || pest === 'Termites' || size > 6000) {
+                risk = 'CRITICAL';
+                color = '#EF4444'; // Red
+                frequency = 'Immediate Double Barrier Injection';
+                baseRate = 'Custom High-Def Audit Required';
+            } else if (selectedSeverity === 'Low' && size < 1500) {
+                risk = 'LOW THREAT';
+                color = '#10B981'; // Green
+                frequency = 'Single Preventive Misting Cycle';
+                baseRate = 'Minimum Safe Rates Apply';
+            } else {
+                risk = 'MODERATE';
+                color = '#F59E0B'; // Amber
+                frequency = 'Bi-Monthly Barrier Protection';
+                baseRate = 'Standard Flat Rates Apply';
+            }
+
+            // Update DOM
+            const levelText = document.getElementById('threat-level-text');
+            const recFreq = document.getElementById('eval-rec-frequency');
+            const glowRing = document.getElementById('radar-glow-ring');
+            const costText = document.getElementById('eval-est-cost');
+
+            levelText.textContent = risk;
+            levelText.style.color = color;
+            recFreq.textContent = frequency;
+            costText.textContent = baseRate;
+
+            // Update border color of rotating ring
+            glowRing.style.borderColor = color;
+        }
+
+        function autoFillFormAndScroll() {
+            const pest = pestInput.value;
+            let fullServiceVal = '';
+
+            // Map standard selector
+            if (pest === 'Termites') fullServiceVal = 'Termite Control';
+            else if (pest === 'Bed Bugs') fullServiceVal = 'Bed Bug Treatment';
+            else if (pest === 'Rodents') fullServiceVal = 'Rodent Control';
+            else if (pest === 'Cockroaches') fullServiceVal = 'Cockroach Control';
+            else if (pest === 'Mosquitos') fullServiceVal = 'Mosquito Control';
+            else if (pest === 'Ants') fullServiceVal = 'Ant Control';
+            else if (pest === 'General AMC') fullServiceVal = 'General Pest Control (AMC)';
+            else if (pest === 'Commercial') fullServiceVal = 'Commercial Pest Control';
+            else fullServiceVal = 'General Pest Control (AMC)';
+
+            // Set Form Select
+            const formService = document.getElementById('form-service');
+            formService.value = fullServiceVal;
+
+            // Scroll to Form Section
+            const contactSection = document.getElementById('contact');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+
+            // Highlight the Form visual card
+            const formCard = document.getElementById('lead-form-card');
+            formCard.classList.add('form-highlight-active');
+            setTimeout(() => {
+                formCard.classList.remove('form-highlight-active');
+            }, 4000);
+        }
+
+        // Initialize calculator metrics on load
+        updateRadarEvaluation();
+
+
+        // --- 3. Booking Pre-Selection Hook ---
+        function preSelectService(serviceName) {
+            const serviceSelect = document.getElementById('form-service');
+            serviceSelect.value = serviceName;
+
+            // Scroll down
+            const contactSection = document.getElementById('contact');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+
+            // Accent Glow
+            const formCard = document.getElementById('lead-form-card');
+            formCard.classList.add('form-highlight-active');
+            setTimeout(() => {
+                formCard.classList.remove('form-highlight-active');
+            }, 4000);
+        }
+
+
+        // --- 4. Testimonials Slider Code ---
+        let currentSlideIndex = 0;
+        const totalSlides = 3;
+        const sliderElement = document.getElementById('testimonial-slider');
+        const dots = document.querySelectorAll('.dot-indicator');
+
+        function updateSlider() {
+            sliderElement.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+            dots.forEach((dot, idx) => {
+                if (idx === currentSlideIndex) {
+                    dot.classList.add('bg-brand-navy');
+                    dot.classList.remove('bg-slate-200');
+                } else {
+                    dot.classList.add('bg-slate-200');
+                    dot.classList.remove('bg-brand-navy');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+            updateSlider();
+        }
+
+        function prevSlide() {
+            currentSlideIndex = (currentSlideIndex - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        }
+
+        function goToSlide(index) {
+            currentSlideIndex = index;
+            updateSlider();
+        }
+
+        // Auto-scroll testimonials every 8 seconds
+        setInterval(nextSlide, 8000);
+
+
+        // --- 5. FAQ Accordion Code ---
+        function toggleFaq(index) {
+            const faqContents = document.querySelectorAll('.faq-content');
+            const faqIcons = document.querySelectorAll('.faq-icon');
+            
+            faqContents.forEach((content, idx) => {
+                if (idx === index) {
+                    content.classList.toggle('hidden');
+                    faqIcons[idx].classList.toggle('rotate-180');
+                } else {
+                    content.classList.add('hidden');
+                    faqIcons[idx].classList.remove('rotate-180');
+                }
+            });
+        }
+
+
+        // --- 6. Form Submission & WhatsApp Automated Redirect ---
+        function handleFormSubmission(event) {
+            event.preventDefault(); // Stop standard form refresh
+            
+            const name = document.getElementById('form-name').value.trim();
+            const phone = document.getElementById('form-phone').value.trim();
+            const address = document.getElementById('form-address').value.trim();
+            const service = document.getElementById('form-service').value;
+            const message = document.getElementById('form-message').value.trim() || 'None';
+
+            // Custom phone format check (10 to 15 digits)
+            const cleanPhone = phone.replace(/[^0-9+]/g, '');
+            if (cleanPhone.length < 10) {
+                alert('Please enter a valid phone number with at least 10 digits.');
+                return;
+            }
+
+            // Construct WhatsApp Message
+            const formattedMsg = `Hi, I want pest control service.\n\nName: ${name}\nPhone: ${cleanPhone}\nAddress: ${address}\nService Needed: ${service}\nMessage: ${message}`;
+            
+            // Encode details properly for URL parameters
+            const urlEncodedMsg = encodeURIComponent(formattedMsg);
+            
+            // Build absolute wa.me redirect link
+            const waUrl = `https://wa.me/919922464685?text=${urlEncodedMsg}`;
+            
+            // Alert user of the seamless redirect
+            alert(`Booking registered! Redirecting you to WhatsApp to complete secure dispatch details with command pre-filled.`);
+            
+            // Open in new tab
+            window.open(waUrl, '_blank');
+        }
+    </script>
+</body>
+</html>

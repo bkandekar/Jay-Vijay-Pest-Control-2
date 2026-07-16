@@ -1,0 +1,6 @@
+{
+  "name": "Jay Vijay Pest Control",
+  "description": "Professional and trustworthy premium Pest Control Service with dynamic scheduling, interactive pest risk radar, and automated WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
